@@ -1,0 +1,63 @@
+#loader-cont {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 25vh;
+  height: 25vh;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border: 0.4vh solid rgb(226, 226, 226);
+}
+
+#loader_percentage{
+  position: absolute;
+  top: -2vh;
+  left: -2vh;
+}
+
+#loader_percentage_num{
+  font-size: 13vh;
+}
+
+#loader-cont #loader_percentage {
+  width: 30vh;
+  height: 20vh;
+  color: #000;
+  text-align: center;
+  line-height: 30vh;
+  font-weight: 600;
+  margin-top: -2vh;
+}
+
+#percent_icon{
+  margin-left: -3.4vh;
+}
+
+#level{
+  position: absolute;
+  bottom: 3vh;
+  left: 0;
+  right: 0;
+  height: 3vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1vh;
+}
+
+#level_color{
+  width: 1.7vh;
+  height: 1.7vh;
+  background: #20fa1b;
+  border-radius: 50%;
+}
+
+#level_text{
+  height: 2.5vh;
+  font-size: 3vh;
+  margin: -.5vh 0 0 1vh;
+  display: flex;
+  align-items: center;
+  color: #7e7474;
+}

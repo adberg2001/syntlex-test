@@ -1,0 +1,5 @@
+#circle_range_line{
+  transform-origin: center;
+  transform: rotate(-90deg);
+  transition: stroke-dashoffset 0.4s;
+}

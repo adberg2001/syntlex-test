@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap');
+@import "decorations.css";
+@import "loader-cont.css";
+@import "loader-line.css";
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#main {
+  width: 35vh;
+  height: 35vh;
+  position: relative;
+}

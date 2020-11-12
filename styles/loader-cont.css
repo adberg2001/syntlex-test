@@ -18,6 +18,7 @@
 
 #loader_percentage_num{
   font-size: 13vh;
+  margin-right: 2vh;
 }
 
 #loader-cont #loader_percentage {
@@ -31,7 +32,7 @@
 }
 
 #percent_icon{
-  margin-left: -3.4vh;
+  margin-left: -3vh;
 }
 
 #level{
@@ -49,7 +50,10 @@
 #level_color{
   width: 1.7vh;
   height: 1.7vh;
-  background: #20fa1b;
+  position: absolute;
+  bottom: .6vh;
+  left: 4vh;
+  background: #838383;
   border-radius: 50%;
 }
 
